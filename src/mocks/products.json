@@ -1,0 +1,36 @@
+[
+  {
+    "id": "1",
+    "slug": "organic-honey",
+    "title": {
+      "tr": "Organik Bal",
+      "en": "Organic Honey"
+    },
+    "description": {
+      "tr": "Doğal, katkısız ve aromatik kır çiçeği balı.",
+      "en": "Natural, additive-free aromatic wildflower honey."
+    },
+    "category": "grocery",
+    "price": 250,
+    "rating": 4.7,
+    "stock": 12,
+    "image": "/images/honey.jpg"
+  },
+  {
+    "id": "2",
+    "slug": "village-cheese",
+    "title": {
+      "tr": "Köy Peyniri",
+      "en": "Village Cheese"
+    },
+    "description": {
+      "tr": "Yerli mandıra usulü, taze ve kremamsı doku.",
+      "en": "Local dairy style, fresh and creamy texture."
+    },
+    "category": "dairy",
+    "price": 180,
+    "rating": 4.3,
+    "stock": 5,
+    "image": "/images/cheese.jpg"
+  }
+]

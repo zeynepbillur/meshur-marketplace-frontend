@@ -1,0 +1,11 @@
+{
+  "common": {
+    "favorites": "Favoriler",
+    "addToFavorites": "Favorilere ekle",
+    "removeFromFavorites": "Favorilerden çıkar"
+  },
+  "home": {
+    "title": "Meşhur Pazaryeri",
+    "subtitle": "En iyi ürünleri keşfet"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "common": {
+    "favorites": "Favorites",
+    "addToFavorites": "Add to favorites",
+    "removeFromFavorites": "Remove from favorites"
+  },
+  "home": {
+    "title": "Meshur Marketplace",
+    "subtitle": "Discover the best products"
+  }
+}

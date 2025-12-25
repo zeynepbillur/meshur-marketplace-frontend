@@ -10,23 +10,41 @@
 
 
 yapı:
+
 └── src
+
     ├── types   
+    
     │   └── product.ts                        # Ürün domain’ine ait TypeScript tipleri (Product, Price, Rating vb.)
+    
     ├── store
+    
     │   ├── theme  
+    
     │   │   └── theme.store.ts                # Dark / light tema state’ini yöneten Zustand store
+    
     │   └── favorites
+    
     │       ├── favorites.selectors.ts        # Favorites store için memoized selector fonksiyonları
+    
     │       ├── favorites.store.ts            # Favori ürünleri yöneten Zustand store (add/remove/toggle)
+    
     │       └── favorites.types.ts            # Favorites store’a ait tipler ve interface’ler
+    
     ├── mocks
+    
     │   └── products.json                     # Mock API yerine kullanılan statik ürün datası
+    
     ├── lib
+    
     │   ├── mappers
+    
     │   │   └── productMapper.ts              # API / mock verisini UI’da kullanılacak modele dönüştüren mapper
+    
     │   ├── i18n
+    
     │   │   ├── getDictionaries.ts            # Locale’e göre doğru dil sözlüğünü yükleyen helper
+    
     │   │   ├── i18n-config.ts                # Desteklenen diller, default locale ve routing ayarları
     │   │   ├── types.ts                      # i18n sözlük tipleri ve ortak type tanımları
     │   │   └── dictionaries

@@ -10,7 +10,9 @@
 
 
 yapı:
+
 └── src
+  
     ├── types   
     │   └── product.ts                        # Ürün domain’ine ait TypeScript tipleri (Product, Price, Rating vb.)
     ├── store

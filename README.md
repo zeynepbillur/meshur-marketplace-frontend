@@ -1,12 +1,20 @@
 
 √ Would you like to use TypeScript? ... Yes
+
 √ Which linter would you like to use? » ESLint
+
 √ Would you like to use React Compiler? ... No 
+
 √ Would you like to use Tailwind CSS? ...  Yes
+
 √ Would you like your code inside a `src/` directory? ...  Yes
+
 √ Would you like to use App Router? (recommended) ... Yes
+
 √ Would you like to customize the import alias (`@/*` by default)? ...  Yes
+
 √ What import alias would you like configured? ... @/*
+
 
 
 yapı:
@@ -69,6 +77,7 @@ yapı:
 Amaç: URL tabanlı dil yönetimi (/tr, /en), Metinlerin merkezi ve type-safe yönetimi
 
 src/lib/i18n/
+
 ├── i18n-config.ts      → locale listesi & default locale 
 ├── getDictionaries.ts → dynamic dictionary loader (dinamik sözlük yükleyici)
 ├── types.ts            → Dictionary type contract 
@@ -97,6 +106,7 @@ sayfa                             rendering                  neden
 Amaç: Gerçek backend varmış gibi çalışma, UI’yı API contract’ından izole etmek
 
 src/lib/api/
+
 ├── products.ts   → fetchProducts, fetchProductBySlug
 ├── types.ts      → ApiProduct contract
 
@@ -114,6 +124,7 @@ Mapper Neden Önemli?
 Amaç: Global ama minimal state, Normalize edilmiş yapı, Test edilebilir business logic
 
 src/store/favorites/
+
 ├── favorites.store.ts
 ├── favorites.types.ts
 └── favorites.selectors.ts

@@ -10,10 +10,7 @@
 
 
 yapı:
-
-
 └── src
-
     ├── types   
     │   └── product.ts                        # Ürün domain’ine ait TypeScript tipleri (Product, Price, Rating vb.)
     ├── store
@@ -132,7 +129,7 @@ path: http://localhost:3003/{lang}/favorites
 Product List
 
 -SSG
--Search URL sync (?q=)
+-Search URL sync 
 -Lazy loaded images
 -Reusable ProductCard
 
@@ -177,6 +174,3 @@ favori butonu ve product card'a hover ve tap animasyonları eklendi
 - backend apileri kolayca bağlanabilecek şekilde yapıldı
 - 
 
-*****************************
-geliştirici: zeynep.billur
-*****************************
